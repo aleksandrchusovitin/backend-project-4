@@ -1,0 +1,30 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Pages loader",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "lint": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandrchusovitin/backend-project-4.git"
+  },
+  "author": "Aleksandr Chusovitin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksandrchusovitin/backend-project-4/issues"
+  },
+  "homepage": "https://github.com/aleksandrchusovitin/backend-project-4#readme",
+  "devDependencies": {
+    "@jest/globals": "^29.6.4",
+    "eslint": "^8.48.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jest": "^27.2.3",
+    "jest": "^29.6.4",
+    "jest-cli": "^29.6.4"
+  }
+}
